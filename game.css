@@ -1,0 +1,52 @@
+body
+{
+	background: #D8BD8A;
+}
+img
+{
+	height: 50px;
+	position: relative;
+	top:6px;
+}
+.game-title
+{
+	color: #753742;
+	font-size: 100px;
+	position: relative ;
+	left: 20px;
+	top:130px;
+}
+.play
+{
+	color: #D8BD8A;
+	background: #753742;
+	position: absolute;
+	top: 30px;
+	left: 700px;
+	font-size: 60px;
+	border: 2px solid black;
+	border-radius: 16px;
+	transition: ease-in 0.3s;
+}
+.play:hover
+{
+	color: #753742;
+	background: #D8BD8A;
+	border: 2px solid black;
+	transition: ease-out 0.3s;
+/*	transition-delay: 0.08s;
+*/
+/*	font-size: 70px;*/
+/*	position: absolute;
+	top: 25px;*/
+}
+#cart
+{
+	height: 30px;
+	width: 100px;
+	background: #D8D78F;
+	position: absolute;
+	left: 600px;
+	top: 565px;
+	display: none;
+}
